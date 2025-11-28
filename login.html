@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" type="text/css" href="static/styles.css"></link>
+    </head>
+    <body>
+        <div align="center">
+            <div align="center" class="border">
+                <div class="header">
+                    <h1 class="word">Login</h1>
+                </div>
+                <h2 class="word">
+                    <form action="/login" method="POST">
+                        <div class="msg">{{msg}}</div>
+                        <input id="username" name="username" type="text" placeholder="Enter your Username" class="textbox">
+                        <br><br>
+                        <input id="password" name="password" type="password" placeholder="Enter your Password" calss="textbox">
+                        <br><br>
+                        <input type="submit" value="Sign in" class="btn">
+                        <br><br>
+                    </form>
+                </h2>
+                <p class="bottom">Don't have an account? <a class="bottom" href="/register">Sign up here</a></p>
+            </div>
+        </div>
+    </body>
+</html>

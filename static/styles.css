@@ -1,0 +1,27 @@
+body{
+    background-color: orange;
+}
+
+.header{
+    background-color: bisque;
+    font-weight: 800;
+    color: black;
+}
+
+.word{
+    background-color: blanchedalmond;
+}
+
+.btn{
+    background-color:orange;
+}
+
+.btn:hover{
+    border-radius: 5px;
+    background-color:blanchedalmond;
+    border: dashed;
+}
+
+.bottom:hover{
+    color: red;
+}
